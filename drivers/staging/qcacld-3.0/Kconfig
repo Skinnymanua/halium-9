@@ -147,4 +147,8 @@ config CONFIG_BUILD_TIMESTAMP
 config WLAN_FEATURE_SARV1_TO_SARV2
 	bool "Enable conversion of SAR v1 to v2 feature"
 	default n
+
+config WLAN_POWER_DEBUGFS
+	bool "Enable power_stats debugfs node"
+	default y
 endif # QCA_CLD_WLAN
